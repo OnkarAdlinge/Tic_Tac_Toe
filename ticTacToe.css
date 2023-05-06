@@ -1,0 +1,59 @@
+
+body
+{
+    background-color: lightcoral;
+}
+#mainC
+{
+    background-color: lightpink;
+    height: 700px;
+    width: 600px;
+    position: relative;
+    left: 50%;
+    transform: translate(-50%);
+    border: none;
+}
+label
+{
+    display: flex;
+    justify-content: center;
+}
+#lb1
+{
+    padding-top: 2%;
+}
+h4
+{
+    display: none;
+}
+
+#reslab
+{
+    margin-top: 20px;
+    display: none;
+}
+.container
+{
+    height: 400px;
+    width: 400px;
+    border: 1px solid black;
+    display: grid;
+    grid-gap: 0px;
+    grid-template-columns: auto auto auto;
+    margin-left: 50%;
+    transform: translate(-50%);
+}
+div
+{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 1px solid black;
+}
+#st
+{
+    height: 30px;
+    width: 50px;
+    border-radius: 8px;
+    font-size: medium;
+}
